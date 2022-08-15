@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+}
+
+.container-1 {
+    width: 200px;
+    height: 100px;
+    color: gray;
+    background-color: navy;
+}
+
+.container-2 {
+    width: 200px;
+    height: 100px;
+    color: navy;
+    background-color: white;
+}
+
+.container-3 {
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+}
+
+.container-4 {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
