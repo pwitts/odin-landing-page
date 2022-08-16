@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    min-height: 75px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+    font-size: 19px;
+}
+
+.header p {
+    font-size: 24px;
+}
+
+.playoffs {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #00165a;
+    color: white;
+}
+
+.playoffs-text {
+    display: flex;
+    flex: 1;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.playoffs h1 {
+    font-size: 48px;
+}
+
+.image-container {
+    flex: 1;
+    height: auto;
+    width: auto;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    padding: 7px 14px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.players {
+    height: auto;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 4%;
+}
+
+.players-text {
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 6%;
+}
+
+.text {
+    max-width: 200px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.group img {
+    border-radius: 10%;
+    width: 200px;
+    height 200px;
+}
+
+.quote-panel {
+    height: auto;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: red;
+    color: white;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.attribute {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.call-to-action {
+    height: auto;
+    padding-top: 6%;
+    padding-bottom: 7%;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: #00165a;
+}
+
+.cta-box {
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid red;
+    height: auto;
+    text-align: center;
+}
+
+.footer{
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #1f2937;
+    color: white;
+}
